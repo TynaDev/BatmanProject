@@ -1,0 +1,61 @@
+@media(max-width: 768px){
+    .footer-navigation{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+
+    #banner{
+        background-position: 40%;
+    }
+
+    #trailler-container{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailler{
+        width: 100%;
+    }
+
+    #sinopse{
+      width: 95%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;  
+    }
+
+    .description{
+        width: 100%;
+    }
+    button{
+        width: 90%;
+        margin-top: 30px;
+        
+    }
+
+    .cards-content{
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+    #banner{
+        background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/19f03899-13f4-4c73-9681-2a4d21d72181/det34sz-b8b80ca5-6e6c-4e87-914e-861aa7efc306.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE5ZjAzODk5LTEzZjQtNGM3My05NjgxLTJhNGQyMWQ3MjE4MVwvZGV0MzRzei1iOGI4MGNhNS02ZTZjLTRlODctOTE0ZS04NjFhYTdlZmMzMDYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.AXR9lyvrgCE4vz_h2dRyR0Rbp_4QO0sYXiKk1G27ojs);
+        background-position: 50% 50%;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 600px;
+    }
+
+
+}

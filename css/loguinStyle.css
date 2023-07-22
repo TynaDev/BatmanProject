@@ -1,0 +1,272 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+background-image: url(https://th.bing.com/th/id/R.5f0abec2cc33ca41811a91f352222dfd?rik=ezKiOA99DmNR7Q&pid=ImgRaw&r=0);
+background-repeat: no-repeat;
+background-size: cover;
+font-family:'Kdam Thmor Pro', sans-serif;
+color: rgb(0, 0, 0);
+width: 100vw;
+height: 100vh;
+font-size: 10px;
+
+}
+
+
+main{
+    padding: 10px;
+    margin-left: 570px;
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+    width: 200px;
+    height: 170px;
+    border-radius: 20px;
+    background-color: #ffffff10;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: (10px);
+    align-items: flex-start;
+    padding-bottom:  20px;
+    color: red;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.botao{
+width: 174px;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbKsYChLJKNG3cLN3ICvPUlz2ZZ0bH3cIvZQ&usqp=CAU);
+background-size: cover;
+color:red;
+border: 3px double red;
+
+
+
+
+
+}
+
+input{
+color:red;
+background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav{
+    width:60%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: 2s;
+    font-family:'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover{
+    color: red;
+}
+
+#logo{
+    width: 150px;
+    height: 90px;
+}
+
+.logo1{
+    margin-left: -160px;
+    margin-top: -20px;
+}
+
+
+footer{
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span{
+    color: #ffff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 10px;
+    margin-bottom: -200px;
+    text-align: center;
+    margin-right: 41px;
+}
+
+.footer-navigation{
+    display: none;
+    
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.logo2{
+    position: absolute;
+    margin-right: 41px;
+    margin-bottom: -70px;
+    
+}
+
+
+
+@media(max-width: 760px){
+    .footer-navigation{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+}
+
+
+
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span{
+    color: #ffff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 10px;
+}
+
+.footer-navigation{
+    display: none;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+@media(max-width: 768px){
+
+    .footer-navigation{
+        display: block;
+        margin-bottom: -260px;
+        font-size: 5px;
+        align-items: center;
+     
+
+
+    
+    }
+
+    nav{
+        display: none;
+        align-items: center;
+    }
+
+    span{
+        margin-bottom: -790px;
+        margin-top: 100px;
+        align-items: center;
+        margin-left: 49px;
+    }
+
+
+
+  
+    main{
+        padding: 10px;
+        margin-left: 95px;
+        margin-top: 100px;
+        display: grid;
+        justify-content: center;
+        width: 200px;
+        height: 150px;
+        border-radius: 20px;
+        background-color: #ffffff10;
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: (10px);
+        align-items: flex-start;
+        padding-bottom:  20px;
+        color: red;
+        
+    }
+    .logo2{
+        align-items: center;
+        margin-left: 56px;
+        margin-bottom: -280px;
+    }
+
+    .logo1{
+        align-items: center;
+        margin-left: 5px;
+        
+    }
+
+    .footer-list{
+        align-items: center;
+        margin-left: 40px;
+        margin-bottom: 100px;
+        margin-top: 1px;
+        margin-left: 9px;
+
+    
+    }
+
+    .botao{
+        width: 173px;
+
+}

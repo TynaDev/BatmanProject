@@ -1,0 +1,30 @@
+/* Media Query for screens up to 760 pixels wide (including 760px) */
+@media (max-width: 760px) {
+  header{
+    flex-direction: column;
+    height: auto;
+  }
+  
+  nav{
+    width: 95%;
+  }
+
+  #logo{
+    margin-bottom: 10px;
+  }
+
+  main{
+    margin: 10px;
+    width: 95%;
+    align-items: center;
+  }
+
+  .botao{
+    margin-left: 0;
+    width: 100%;
+    width: 800px;
+    
+  }
+  
+
+}

@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+ 
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+    
+    
+}
+
+body{
+  /* background-image: -moz-linear-gradient(black 20%,   rgb(134, 11, 11) 45% ,black 80%);
+  background-color: black;  fundo degradê não pegou no google chrome ;(*/
+  background-image: url(https://images.hdqwalls.com/wallpapers/red-is-the-new-colour-batman-ph.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav{
+    width:60%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: 2s;
+    font-family:'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover{
+    color: rgb(0, 0, 0);
+}
+
+#logo{
+    width: 150px;
+    height: 90px;
+}
+
+
+
+
+
+main{
+    padding: 10px;
+    margin-left: 30%;
+    display: grid;
+    justify-content: center;
+    width: 500px;
+    height: 800px;
+    border-radius: 20px;
+    background-color: rgba(10, 10, 10, 0.37);
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: (50px);
+    align-items: flex-start;
+}
+
+input{
+    color: rgb(110, 10, 10);
+
+
+    
+}
+
+
+button{
+    width: 180px;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    color: #df1313;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .9s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    font-weight: bold;
+    margin-top: 4px;
+    outline: none;
+    align-items: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-left: 18%;
+   
+  
+
+
+}
+
+button:hover{
+    background-color: #ffff;
+    color: red;
+}
+
+
+
+
+
+label{
+    color: red;
+}
+
+
+
+
+
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span{
+    color: #ffff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+.footer-navigation{
+    display: none;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
